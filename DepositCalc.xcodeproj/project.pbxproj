@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59646D2815B6EAC600F4777E /* qwwe.icns in Resources */ = {isa = PBXBuildFile; fileRef = 59646D2715B6EAC600F4777E /* qwwe.icns */; };
+		59DC6AEA159C75910005E341 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DC6AE9159C75910005E341 /* AppController.m */; };
 		59E47480159B4DAC00BA9384 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59E4747F159B4DAC00BA9384 /* Cocoa.framework */; };
 		59E4748A159B4DAC00BA9384 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59E47488159B4DAC00BA9384 /* InfoPlist.strings */; };
 		59E4748C159B4DAC00BA9384 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59E4748B159B4DAC00BA9384 /* main.m */; };
@@ -30,24 +32,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5943CD1A15B43163004D1AEB /* DepositCalc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = DepositCalc.entitlements; sourceTree = "<group>"; };
+		59646D2715B6EAC600F4777E /* qwwe.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = qwwe.icns; path = ../qwwe.icns; sourceTree = "<group>"; };
+		59DC6AE8159C75910005E341 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		59DC6AE9159C75910005E341 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
 		59E4747B159B4DAC00BA9384 /* DepositCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DepositCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59E4747F159B4DAC00BA9384 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		59E47482159B4DAC00BA9384 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		59E47483159B4DAC00BA9384 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		59E47484159B4DAC00BA9384 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		59E47487159B4DAC00BA9384 /* DepositCalc-Info.plist */ = {isa = PBXFileReference; path = "DepositCalc-Info.plist"; sourceTree = "<group>"; };
+		59E47487159B4DAC00BA9384 /* DepositCalc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DepositCalc-Info.plist"; sourceTree = "<group>"; };
 		59E47489159B4DAC00BA9384 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		59E4748B159B4DAC00BA9384 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		59E4748D159B4DAC00BA9384 /* DepositCalc-Prefix.pch */ = {isa = PBXFileReference; path = "DepositCalc-Prefix.pch"; sourceTree = "<group>"; };
+		59E4748D159B4DAC00BA9384 /* DepositCalc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DepositCalc-Prefix.pch"; sourceTree = "<group>"; };
 		59E4748F159B4DAC00BA9384 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		59E47491159B4DAC00BA9384 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		59E47491159B4DAC00BA9384 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		59E47492159B4DAC00BA9384 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		59E47495159B4DAC00BA9384 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		59E4749C159B4DAC00BA9384 /* DepositCalcTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DepositCalcTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59E4749D159B4DAC00BA9384 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		59E474A4159B4DAC00BA9384 /* DepositCalcTests-Info.plist */ = {isa = PBXFileReference; path = "DepositCalcTests-Info.plist"; sourceTree = "<group>"; };
+		59E474A4159B4DAC00BA9384 /* DepositCalcTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DepositCalcTests-Info.plist"; sourceTree = "<group>"; };
 		59E474A6159B4DAC00BA9384 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		59E474A8159B4DAC00BA9384 /* DepositCalcTests.h */ = {isa = PBXFileReference; path = DepositCalcTests.h; sourceTree = "<group>"; };
+		59E474A8159B4DAC00BA9384 /* DepositCalcTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DepositCalcTests.h; sourceTree = "<group>"; };
 		59E474A9159B4DAC00BA9384 /* DepositCalcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DepositCalcTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,6 +123,8 @@
 				59E47491159B4DAC00BA9384 /* AppDelegate.h */,
 				59E47492159B4DAC00BA9384 /* AppDelegate.m */,
 				59E47494159B4DAC00BA9384 /* MainMenu.xib */,
+				59DC6AE8159C75910005E341 /* AppController.h */,
+				59DC6AE9159C75910005E341 /* AppController.m */,
 				59E47486159B4DAC00BA9384 /* Supporting Files */,
 			);
 			path = DepositCalc;
@@ -125,6 +133,8 @@
 		59E47486159B4DAC00BA9384 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5943CD1A15B43163004D1AEB /* DepositCalc.entitlements */,
+				59646D2715B6EAC600F4777E /* qwwe.icns */,
 				59E47487159B4DAC00BA9384 /* DepositCalc-Info.plist */,
 				59E47488159B4DAC00BA9384 /* InfoPlist.strings */,
 				59E4748B159B4DAC00BA9384 /* main.m */,
@@ -198,7 +208,7 @@
 		59E47472159B4DAC00BA9384 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "necyakunin@gmail.com";
 			};
 			buildConfigurationList = 59E47475159B4DAC00BA9384 /* Build configuration list for PBXProject "DepositCalc" */;
@@ -227,6 +237,7 @@
 				59E4748A159B4DAC00BA9384 /* InfoPlist.strings in Resources */,
 				59E47490159B4DAC00BA9384 /* Credits.rtf in Resources */,
 				59E47496159B4DAC00BA9384 /* MainMenu.xib in Resources */,
+				59646D2815B6EAC600F4777E /* qwwe.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +274,7 @@
 			files = (
 				59E4748C159B4DAC00BA9384 /* main.m in Sources */,
 				59E47493159B4DAC00BA9384 /* AppDelegate.m in Sources */,
+				59DC6AEA159C75910005E341 /* AppController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +338,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -353,6 +369,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -370,9 +390,13 @@
 		59E474AE159B4DAC00BA9384 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = DepositCalc/DepositCalc.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DepositCalc/DepositCalc-Prefix.pch";
 				INFOPLIST_FILE = "DepositCalc/DepositCalc-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -381,9 +405,13 @@
 		59E474AF159B4DAC00BA9384 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = DepositCalc/DepositCalc.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DepositCalc/DepositCalc-Prefix.pch";
 				INFOPLIST_FILE = "DepositCalc/DepositCalc-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -393,6 +421,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DepositCalc.app/Contents/MacOS/DepositCalc";
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DepositCalc/DepositCalc-Prefix.pch";
@@ -407,6 +436,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DepositCalc.app/Contents/MacOS/DepositCalc";
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DepositCalc/DepositCalc-Prefix.pch";
@@ -436,6 +466,7 @@
 				59E474AF159B4DAC00BA9384 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		59E474B0159B4DAC00BA9384 /* Build configuration list for PBXNativeTarget "DepositCalcTests" */ = {
 			isa = XCConfigurationList;
@@ -444,6 +475,7 @@
 				59E474B2159B4DAC00BA9384 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
